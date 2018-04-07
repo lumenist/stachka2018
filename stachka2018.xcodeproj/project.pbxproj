@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28D7E2BA805315FB4225152F /* Pods_stachka2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9FC76EA04BB2128FEE9A8 /* Pods_stachka2018.framework */; };
+		B01D0E782078B6BC004B1D68 /* AlamofireTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D0E772078B6BC004B1D68 /* AlamofireTransport.swift */; };
+		B01D0E7A2078BC3D004B1D68 /* *.github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = B01D0E792078BBAB004B1D68 /* *.github.com.cer */; };
+		B01D0E7D2078BF0C004B1D68 /* JailbreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D0E7C2078BF0C004B1D68 /* JailbreakDetector.swift */; };
+		B0AC0875207887A200B94783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC0874207887A200B94783 /* AppDelegate.swift */; };
+		B0AC0877207887A200B94783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC0876207887A200B94783 /* ViewController.swift */; };
+		B0AC087A207887A200B94783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AC0878207887A200B94783 /* Main.storyboard */; };
+		B0AC087C207887A200B94783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AC087B207887A200B94783 /* Assets.xcassets */; };
+		B0AC087F207887A200B94783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AC087D207887A200B94783 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16BD1D0C168BE104A362A921 /* Pods-stachka2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stachka2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stachka2018/Pods-stachka2018.debug.xcconfig"; sourceTree = "<group>"; };
+		1E1A12F4361F252D4660C9F5 /* Pods-stachka2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stachka2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-stachka2018/Pods-stachka2018.release.xcconfig"; sourceTree = "<group>"; };
+		B01D0E772078B6BC004B1D68 /* AlamofireTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireTransport.swift; sourceTree = "<group>"; };
+		B01D0E792078BBAB004B1D68 /* *.github.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.github.com.cer"; sourceTree = "<group>"; };
+		B01D0E7C2078BF0C004B1D68 /* JailbreakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakDetector.swift; sourceTree = "<group>"; };
+		B0AC0871207887A200B94783 /* stachka2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stachka2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AC0874207887A200B94783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0AC0876207887A200B94783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0AC0879207887A200B94783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0AC087B207887A200B94783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0AC087E207887A200B94783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0AC0880207887A200B94783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E9FC76EA04BB2128FEE9A8 /* Pods_stachka2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stachka2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0AC086E207887A200B94783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D7E2BA805315FB4225152F /* Pods_stachka2018.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7990633A71E09E32AB9633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16BD1D0C168BE104A362A921 /* Pods-stachka2018.debug.xcconfig */,
+				1E1A12F4361F252D4660C9F5 /* Pods-stachka2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		858DD5175AE719281748FDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9FC76EA04BB2128FEE9A8 /* Pods_stachka2018.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0AC0868207887A200B94783 = {
+			isa = PBXGroup;
+			children = (
+				B0AC0873207887A200B94783 /* stachka2018 */,
+				B0AC0872207887A200B94783 /* Products */,
+				5D7990633A71E09E32AB9633 /* Pods */,
+				858DD5175AE719281748FDBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0AC0872207887A200B94783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0AC0871207887A200B94783 /* stachka2018.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0AC0873207887A200B94783 /* stachka2018 */ = {
+			isa = PBXGroup;
+			children = (
+				B01D0E792078BBAB004B1D68 /* *.github.com.cer */,
+				B01D0E772078B6BC004B1D68 /* AlamofireTransport.swift */,
+				B0AC0874207887A200B94783 /* AppDelegate.swift */,
+				B0AC0876207887A200B94783 /* ViewController.swift */,
+				B0AC087B207887A200B94783 /* Assets.xcassets */,
+				B0AC0880207887A200B94783 /* Info.plist */,
+				B01D0E7C2078BF0C004B1D68 /* JailbreakDetector.swift */,
+				B0AC087D207887A200B94783 /* LaunchScreen.storyboard */,
+				B0AC0878207887A200B94783 /* Main.storyboard */,
+			);
+			path = stachka2018;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0AC0870207887A200B94783 /* stachka2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AC0883207887A200B94783 /* Build configuration list for PBXNativeTarget "stachka2018" */;
+			buildPhases = (
+				58C7BB668AFABCF4005F3582 /* [CP] Check Pods Manifest.lock */,
+				B0AC086D207887A200B94783 /* Sources */,
+				B0AC086E207887A200B94783 /* Frameworks */,
+				B0AC086F207887A200B94783 /* Resources */,
+				2ADC1E494345BC423F2D5413 /* [CP] Embed Pods Frameworks */,
+				C220536328BFF1A57C54A76F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stachka2018;
+			productName = stachka2018;
+			productReference = B0AC0871207887A200B94783 /* stachka2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0AC0869207887A200B94783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "*";
+				TargetAttributes = {
+					B0AC0870207887A200B94783 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0AC086C207887A200B94783 /* Build configuration list for PBXProject "stachka2018" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0AC0868207887A200B94783;
+			productRefGroup = B0AC0872207887A200B94783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0AC0870207887A200B94783 /* stachka2018 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0AC086F207887A200B94783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D0E7A2078BC3D004B1D68 /* *.github.com.cer in Resources */,
+				B0AC087F207887A200B94783 /* LaunchScreen.storyboard in Resources */,
+				B0AC087C207887A200B94783 /* Assets.xcassets in Resources */,
+				B0AC087A207887A200B94783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ADC1E494345BC423F2D5413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-stachka2018/Pods-stachka2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stachka2018/Pods-stachka2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C7BB668AFABCF4005F3582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stachka2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C220536328BFF1A57C54A76F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stachka2018/Pods-stachka2018-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0AC086D207887A200B94783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AC0877207887A200B94783 /* ViewController.swift in Sources */,
+				B01D0E782078B6BC004B1D68 /* AlamofireTransport.swift in Sources */,
+				B0AC0875207887A200B94783 /* AppDelegate.swift in Sources */,
+				B01D0E7D2078BF0C004B1D68 /* JailbreakDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0AC0878207887A200B94783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0AC0879207887A200B94783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0AC087D207887A200B94783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0AC087E207887A200B94783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0AC0881207887A200B94783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0AC0882207887A200B94783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0AC0884207887A200B94783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BD1D0C168BE104A362A921 /* Pods-stachka2018.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TSV2C6WL;
+				INFOPLIST_FILE = stachka2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.stachka2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0AC0885207887A200B94783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1A12F4361F252D4660C9F5 /* Pods-stachka2018.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TSV2C6WL;
+				INFOPLIST_FILE = stachka2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.stachka2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0AC086C207887A200B94783 /* Build configuration list for PBXProject "stachka2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AC0881207887A200B94783 /* Debug */,
+				B0AC0882207887A200B94783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AC0883207887A200B94783 /* Build configuration list for PBXNativeTarget "stachka2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AC0884207887A200B94783 /* Debug */,
+				B0AC0885207887A200B94783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0AC0869207887A200B94783 /* Project object */;
+}
